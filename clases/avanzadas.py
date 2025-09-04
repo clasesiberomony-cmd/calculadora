@@ -4,7 +4,7 @@ class Avanzadas:
         self.numero1 = 0
         self.numero2 = 0
         self.potencia = 0
-        self.raiz = 0
+        
 
     def leerNumeros(self):
         pass
@@ -12,8 +12,7 @@ class Avanzadas:
     def calcularPotencia(self):
         self.potencia = self.numero1 ** self.numero2
 
-    def calcularRaizCuadrada(self):
-        self.raiz = math.sqrt(self.numero1)
+    
 
     def mostrarResultado(self, resultado):
         pass
