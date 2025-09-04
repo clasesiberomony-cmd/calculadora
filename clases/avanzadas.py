@@ -11,6 +11,8 @@ class Avanzadas:
     def calcularPotencia(self):
         self.potencia = self.numero1 ** self.numero2
 
+    def calcularRaizCuadrada(self):
+        self.raiz = math.sqrt(self.numero1)
 
     def mostrarResultado(self, resultado):
         pass
